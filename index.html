@@ -12,9 +12,16 @@
   <button id="bg-switch">Dark Mode</button>
   <div id="error" class="error"></div>
   <form>
-    <textarea placeholder="Place your words here..."></textarea>
-    <button type="submit">Submit</button>
-    <button type="reset">Clear</button>
+    <!-- <textarea placeholder="Place your words here..."></textarea> -->
+    <div class="form-floating">
+      <textarea class="form-control" placeholder="Place your words here..."></textarea>
+    </div>
+    <!-- <button type="submit">Submit</button>
+    <button type="reset">Clear</button> -->
+    <div class="d-grid gap-2">
+      <button class="btn btn-primary" type="submit">Submit</button>
+      <button class="btn btn-primary" type="reset">Clear</button>
+    </div>
   </form>
   <div id="word-count"></div>
   <script src="main.js"></script>
